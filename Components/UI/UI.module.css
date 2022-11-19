@@ -1,0 +1,111 @@
+
+
+
+.tiny-pfp {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.small-pfp {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.big-pfp {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.edit {
+    position: relative;
+}
+.edit-button{
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+    display: grid;
+    place-content: center;
+}
+.edit-button:hover {
+    background-color: #3D3E40;
+}
+.edit-icon {
+    color: #B0B3B7;
+}
+.options-list {
+    position: absolute;
+    top: 105%;
+    right: 0;
+    width: max-content;
+    background-color: #242526;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.642);
+}
+.options-list div {
+    cursor: pointer;
+    color: #E4E6EB;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.options-list div:hover {
+    background-color: #3D3E40;
+}
+
+.loading {
+    position: relative;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+            -webkit-transform: rotate(360deg); 
+            transform:rotate(360deg); 
+    } 
+}
+
+.loading::after {
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    right: -6px;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent; 
+    border-right:15px solid #242526; 
+}
+.loading::before {
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    left: -6px;
+    top: 50%;
+    transform: translate(0, -50%);    
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #242526;
+}

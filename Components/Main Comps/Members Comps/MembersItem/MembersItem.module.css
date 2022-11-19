@@ -1,0 +1,17 @@
+
+
+
+.member-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    transition: all ease-in-out 0.2s;
+    margin-bottom: 30px;
+}
+.member-item:hover {
+    padding: 10px 0px 10px 20px;
+    background-color: #525355;
+    border-radius: 12px;
+}

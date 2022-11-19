@@ -1,0 +1,16 @@
+
+
+
+.reply-container {
+    display: flex;
+    color: #E4E6EB;
+    margin-bottom: 15px ;
+}
+.reply {
+    width: max-content;
+    font-size: 14px;
+    background-color: #3A3B3C;
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: 10px;
+}

@@ -1,0 +1,20 @@
+
+
+
+.comments-section {
+    padding: 20px;
+}
+.comment-input {
+    outline: none;
+    background-color: #3f4143;
+    padding: 12px 17px;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    color: #B8BBBF;
+    font-size: 16px;
+}
+.comment-input::placeholder {
+    color: #B8BBBF;
+    font-size: 16px;
+}

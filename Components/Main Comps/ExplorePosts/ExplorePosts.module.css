@@ -1,0 +1,23 @@
+
+
+
+.explore-posts {
+    margin: auto;
+    margin-top: 100px;
+    width: 90%;
+    max-width: 1128px;
+}
+@media(min-width:768px) {
+    .explore-posts {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(min-width:996px) {
+    .explore-posts {
+        
+        grid-gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
